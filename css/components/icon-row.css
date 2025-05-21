@@ -11,16 +11,22 @@
 }
 
 .icon-row__icon i {
-  font-size: 35px;
+  font-size: 28px;
   color: rgba(0, 0, 0, 0.6);
   transition: all 0.3s ease-in-out;
 }
 
 .icon-row__icon span {
   margin-top: 18px;
+  font-size: 12px;
 }
 
 .icon-row__icon:hover i,
 .icon-row__icon:hover span {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.icon-row__icon:focus i,
+.icon-row__icon:focus span {
   color: rgba(0, 0, 0, 0.9);
 }

@@ -7,7 +7,7 @@
 }
 
 .screen-header__title {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 600;
 }
 
@@ -35,6 +35,7 @@
 
 .screen-header__icons i {
   cursor: pointer;
+  font-size: 18px;
 }
 
 @keyframes rotateGear {
@@ -47,5 +48,5 @@
 }
 
 .screen-header__icons .fa-gear:hover {
-  animation: rotateGear 1s linear infinite;
+  animation: rotateGear 1s linear;
 }
