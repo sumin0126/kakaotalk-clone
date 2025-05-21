@@ -12,10 +12,14 @@
 
 .recommended-friends span {
   display: block;
-  margin: 100px 0;
+  margin: 150px 0;
   text-align: center;
   color: var(--grey-color);
   font-size: 18px;
+}
+
+.open-chat {
+  height: 30%;
 }
 
 .open-chat__header {
