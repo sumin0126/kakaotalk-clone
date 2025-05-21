@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- friends 페이지 -->
 <html lang="en">
   <head>
     <link rel="stylesheet" href="./css/styles.css" />
@@ -7,6 +8,7 @@
     <title>Friends - kakao clone</title>
   </head>
   <body>
+    <!-- Status Bar -->
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -22,6 +24,7 @@
       </div>
     </div>
 
+    <!-- Screen Header -->
     <header class="screen-header">
       <h1 class="screen-header__title">Friends</h1>
       <div class="screen-header__icons">
@@ -37,14 +40,15 @@
       </div>
     </header>
 
+    <!-- Friend-Display-Link -->
     <a href="#" id="friends-display-link">
       <i class="fa-solid fa-circle-info"></i>
       Friends' Names Display
       <i class="fa-solid fa-chevron-right fa-xs"></i>
     </a>
 
+    <!-- Main Screen -->
     <main class="friends-screen">
-      <!-- 사용자 프로필 -->
       <div class="user-component">
         <div class="user-component__column">
           <img
@@ -53,19 +57,15 @@
           />
           <div class="user-component__text">
             <h4 class="user-component__title">Username</h4>
-            <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
           </div>
         </div>
         <div class="user-component__column"></div>
       </div>
-
-      <!-- channel -->
       <div class="friends-screen__channel">
         <div class="friends-screen__channel-header">
           <span>Channel</span>
           <i class="fa-solid fa-chevron-up fa-xs"></i>
         </div>
-        <!-- 사용자 프로필 -->
         <div class="user-component">
           <div class="user-component__column">
             <img
@@ -88,6 +88,7 @@
       </div>
     </main>
 
+    <!-- NavBar -->
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
@@ -115,12 +116,12 @@
       </ul>
     </nav>
 
-    <!-- 로딩 스크린 -->
+    <!-- Loding Screen -->
     <div id="splash-screen">
       <i class="fa-solid fa-comment"></i>
     </div>
 
-    <!-- 모바일 환경이 아닐 경우, 안내 메세지 추가 -->
+    <!-- No Mobile Notice -->
     <div id="no-mobile">
       <span>Your screen is too big</span>
     </div>
