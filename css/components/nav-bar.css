@@ -19,7 +19,7 @@
 }
 
 .nav__link i {
-  font-size: 28px;
+  font-size: 22px;
 }
 
 @keyframes notificationAnimation {
@@ -38,8 +38,8 @@
 
 .nav__notification {
   position: absolute;
-  left: 13px;
-  bottom: 12px;
+  left: 10px;
+  bottom: 9px;
   font-size: 14px;
   animation: notificationAnimation 2s ease-in-out infinite;
 }
