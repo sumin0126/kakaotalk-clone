@@ -49,7 +49,7 @@
   align-items: flex-end;
 }
 
-.user-component__column:last-child i {
+.user-component__column:last-child .fa-message {
   font-size: 22px;
 }
 
