@@ -83,5 +83,17 @@
     </div>
 
     <script src="https://kit.fontawesome.com/9ecbf03059.js" crossorigin="anonymous"></script>
+    <script>
+      const input = document.querySelector('.reply input');
+
+      input.addEventListener('focus', () => {
+        setTimeout(() => {
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+          });
+        }, 100);
+      });
+    </script>
   </body>
 </html>
