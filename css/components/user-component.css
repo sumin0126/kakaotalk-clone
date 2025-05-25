@@ -49,6 +49,10 @@
   align-items: flex-end;
 }
 
+.user-component__column:last-child i {
+  font-size: 22px;
+}
+
 .user-component__time {
   display: block;
   margin-bottom: 10px;
