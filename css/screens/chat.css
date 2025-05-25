@@ -1,5 +1,7 @@
 #chat-screen {
   background-color: #abc1d1;
+  height: 100vh;
+  height: 100dvh;
 }
 
 #chat-screen .alt-header,
@@ -133,18 +135,18 @@
   align-items: center;
   padding: 5px 20px;
   box-sizing: border-box;
-  transition: transform 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.reply:focus-within {
+  transform: translateY(-80px);
+  background-color: transparent;
 }
 
 .reply:focus-within .reply__column:first-child,
 .reply:focus-within .fa-face-smile,
 .reply:focus-within button {
   transition: opacity 0.3s ease-in-out;
-}
-
-.reply:focus-within .reply__column:first-child,
-.reply:focus-within .fa-face-smile,
-.reply:focus-within button {
   opacity: 0;
 }
 
@@ -204,8 +206,4 @@
 .reply__column button:focus,
 .reply__column button:active {
   outline: none;
-}
-
-.reply:focus-within {
-  transform: translateY(80px);
 }
