@@ -131,19 +131,6 @@ body {
   flex-direction: row-reverse;
 }
 
-/* .reply {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px 20px;
-  box-sizing: border-box;
-  transition: transform 0.3s ease-in-out;
-} */
-
 .reply {
   position: fixed;
   bottom: 0;
@@ -155,37 +142,11 @@ body {
   gap: 10px;
   padding: 5px 20px;
   box-sizing: border-box;
-  /* transition: transform 0.3s ease-in-out; */
 }
-
-/* .reply:focus-within {
-  transform: translateY(80px);
-} */
-
-/* .reply:focus-within {
-  transform: translateY(-90px);
-} */
-
-/* .reply:focus-within .reply__column:first-child,
-.reply:focus-within .fa-face-smile,
-.reply:focus-within button {
-  transition: opacity 0.3s ease-in-out;
-  opacity: 0;
-} */
 
 .reply i {
   opacity: 0.5;
 }
-
-/* .reply__column:first-child {
-  width: 10%;
-}
-
-.reply__column:last-child {
-  width: 90%;
-  position: relative;
-  margin-right: 10px;
-} */
 
 .reply input {
   padding: 12px;
@@ -198,50 +159,23 @@ body {
 
 .reply input:focus {
   width: 100%;
-  /* transform: translateX(-4%) translateY(-90px); */
-  /* transform: translateY(-90px); */
 }
-
-/* .reply__column:last-child > i,
-.reply__column:last-child button {
-  position: absolute;
-  right: -16px;
-  top: 8px;
-} */
-
-/* .reply__column:last-child > i {
-  right: 20px;
-  top: 20px;
-} */
-
-/* .reply__column button {
-  background-color: var(--yellow);
-  border: none;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-} */
 
 .reply button {
   background-color: var(--yellow);
   border: none;
-  width: 25px;
-  height: 25px;
+  width: 22px;
+  height: 22px;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-/* .reply__column button i {
-  opacity: 1;
-} */
 
 .reply button i {
+  font-size: 14px;
   opacity: 1;
 }
-
-/* .reply__column button:focus,
-.reply__column button:active {
-  outline: none;
-} */
 
 .reply button:focus,
 .reply button:active {
